@@ -3,7 +3,6 @@ import Layout from "./Components/Layout/Layout";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 import Notfound from "./Components/Notfound/Notfound";
-import Parents from "./Components/Parents";
 import Address from "./Components/Address/Address";
 import ForgetPass from './Components/ForgetPass/ForgetPass'
 import { useContext, useEffect } from "react";
@@ -34,7 +33,7 @@ function App() {
       setIsUser(localStorage.getItem("userToken"));
       setLogin(localStorage.getItem("username"));
     }
-  }, []);
+  }, [setIsUser, setLogin]);
 
   const routs = createBrowserRouter([
     {
