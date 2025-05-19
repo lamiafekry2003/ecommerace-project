@@ -140,7 +140,7 @@ export default function Address() {
             </div>
 
             <button
-              className="btn text-white bg-success w-100 mt-3"
+              className="btn text-white green-color w-100 mt-3"
               type="submit"
               disabled={!(details && phone && city)}
             >

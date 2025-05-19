@@ -64,6 +64,8 @@ a:hover {
 }
 
 .btn-bord {
+  padding: 10px;
+  font-size: 16px;
   border: 1px solid var(--main-color);
 }
 

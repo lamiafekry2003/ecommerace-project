@@ -179,7 +179,7 @@ export default function ForgetPass() {
             </div>
 
             <button
-              className="btn text-white bg-success w-100 mt-3"
+              className="btn text-white green-color w-100 mt-3"
               disabled={!(formik.isValid && formik.dirty)}
               type="submit"
             >
